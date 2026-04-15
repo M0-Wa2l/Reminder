@@ -6,7 +6,7 @@
   "publisher": "Mohamed-Wael",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/M0-Wa2l/Reminder.git"
   },
   "engines": {
     "vscode": "^1.85.0"
