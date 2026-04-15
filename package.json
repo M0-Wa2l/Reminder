@@ -1,0 +1,41 @@
+{
+  "name": "vs-reminder",
+  "displayName": "Reminder - Mohamed",
+  "description": "A simple private reminder extension for me that reminds me with her every 5 minutes",
+  "version": "1.0.0",
+  "publisher": "Mohamed-Wael",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "reminder.start",
+        "title": "Start Reminder 🔔",
+        "category": "Reminder"
+      },
+      {
+        "command": "reminder.stop",
+        "title": "Stop Reminder 🔕",
+        "category": "Reminder"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}
