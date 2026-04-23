@@ -1,6 +1,0 @@
-out/
-node_modules/
-.vscode-test/
-.eslintrc.json
-tsconfig.json
-*.vsix
